@@ -1,0 +1,21 @@
+div{
+    width: 30%;
+    border: 1px solid gray;
+ 
+    padding-bottom: 10px;
+    border-radius: 5px;
+ }
+ img{border-bottom: 1px solid gray; }
+ hr{width: 80%;
+
+  }
+  header p  { 
+      text-transform: uppercase;
+      color: gray;
+  }
+  p:not(header p) {color: goldenrod;
+            font-size: 2em;
+                font-weight: bold;
+            
+
+   }
