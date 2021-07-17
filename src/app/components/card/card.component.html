@@ -1,9 +1,9 @@
 <div class="card">
-    <img src="../../../assets/beer-logo.jpg" alt="" srcset="">
+    <img src="{{imagen}}" alt="" srcset="">
     <header>
-        <p>bebidas</p>
-        <h2>Cerveza</h2>
+        <p *ngIf='categoria' >{{categoria}}</p>
+        <h2>{{titulo | uppercase}}</h2>
     </header>
     <hr>
-    <p>$250</p>
+     <span>$</span><p>{{precio | currency : 'ARS'}}</p>
 </div>

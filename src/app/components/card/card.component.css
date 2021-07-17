@@ -4,8 +4,12 @@ div{
  
     padding-bottom: 10px;
     border-radius: 5px;
+   
  }
- img{border-bottom: 1px solid gray; }
+ img{border-bottom: 1px solid gray;
+    width:100%;
+    height:50%;
+}
  hr{width: 80%;
 
   }
