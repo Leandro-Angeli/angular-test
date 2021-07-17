@@ -1,0 +1,15 @@
+nav{background-color: goldenrod;
+
+ }
+
+ul{    display: flex;
+    list-style: none;
+    gap: 1rem;
+    justify-content: space-evenly;
+
+
+ }
+ a{  color: inherit;
+    text-decoration: none;
+
+   }
