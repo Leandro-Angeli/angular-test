@@ -8,6 +8,15 @@ import { Component, OnInit } from '@angular/core';
 export class NosotrosComponent implements OnInit {
 
   constructor() { }
+  mostrar=false;
+  
+  saludar(){
+          alert('click');
+   }
+
+   toggleInformation(){
+     this.mostrar = !this.mostrar;
+    }
   title = 'Seccion Nosotros';
   subtitle = 'Nosotros'
   ngOnInit(): void {
